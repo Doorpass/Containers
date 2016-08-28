@@ -6,4 +6,7 @@ RUN mkdir /compile
 WORKDIR /compile
 
 # Install babel from NPM
-RUN npm install -g babel-cli babel-preset-es2015
+RUN npm install -g babel-cli
+
+# Install the babel preset locally
+RUN npm install babel babel-preset-es2015
