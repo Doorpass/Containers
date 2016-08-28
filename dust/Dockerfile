@@ -5,5 +5,5 @@ MAINTAINER Alexander Christie <alex@doorpass.io>
 RUN mkdir /compile
 WORKDIR /compile
 
-# Install babel from NPM
+# Install dust from NPM
 RUN npm install -g dustjs-linkedin

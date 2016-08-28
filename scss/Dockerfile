@@ -1,9 +1,9 @@
 FROM mhart/alpine-node:6.4
 MAINTAINER Alexander Christie <alex@doorpass.io>
 
-# Create a lint directory
+# Create a compile directory
 RUN mkdir /compile
 WORKDIR /compile
 
-# Install babel from NPM
+# Install gulp and the required plugins from NPM
 RUN npm install gulp gulp-autoprefixer gulp-cssnano gulp-sass gulp-shorthand
