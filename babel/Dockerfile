@@ -9,4 +9,4 @@ WORKDIR /compile
 RUN npm install -g babel-cli
 
 # Install the babel preset locally
-RUN npm install babel babel-preset-es2015
+RUN npm install babel babel-preset-es2015 babel-preset-react
