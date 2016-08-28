@@ -10,3 +10,6 @@ WORKDIR /compile
 
 # Install gulp and the required plugins from NPM
 RUN npm install gulp gulp-autoprefixer gulp-cssnano gulp-sass gulp-shorthand
+
+# Remove the build tools
+RUN apk del python g++ make
