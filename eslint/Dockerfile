@@ -6,4 +6,4 @@ RUN mkdir /lint
 WORKDIR /lint
 
 # Install eslint from NPM
-RUN npm install -g eslint
+RUN npm install -g eslint eslint-plugin-react
