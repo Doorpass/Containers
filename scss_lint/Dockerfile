@@ -1,4 +1,4 @@
-FROM cybercode/alpine-ruby
+FROM cybercode/alpine-ruby:2.3
 MAINTAINER Alexander Christie <alex@doorpass.io>
 
 # Create a lint directory
